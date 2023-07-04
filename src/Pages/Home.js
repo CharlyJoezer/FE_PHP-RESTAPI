@@ -55,6 +55,105 @@ export default function Home() {
           <span className="category-name">Lainnya</span>
         </div>
       </div>
+
+      <div className="text-header">Temukan Produkmu</div>
+      <div className="products">
+        <div className="product">
+          <img
+            className="product-image"
+            src="https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/1/11/fe4b1b65-93b4-4f95-bebf-ddcd9f88c65d.jpg"
+            alt="https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/1/11/fe4b1b65-93b4-4f95-bebf-ddcd9f88c65d.jpg"
+          />
+          <div className="product-desc">
+            <span className="product-name">Mousepad Gaming</span>
+            <span className="product-price">Rp 59.000</span>
+            <span className="product-location">
+              <img src="assets/icon/location.png" alt="location" />
+              <span>Jakarta Selatan</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="product">
+          <img
+            className="product-image"
+            src="https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/11/17/ac76b824-0499-4101-95e1-616bb8dc9d72.jpg"
+            alt="https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/11/17/ac76b824-0499-4101-95e1-616bb8dc9d72.jpg"
+          />
+          <div className="product-desc">
+            <span className="product-name">Pelurus rambut</span>
+            <span className="product-price">Rp 73.000</span>
+            <span className="product-location">
+              <img src="assets/icon/location.png" alt="location" />
+              <span>Jakarta Selatan</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="product">
+          <img
+            className="product-image"
+            src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2020/5/14/31f7ff85-1319-4782-ad83-5908ebf36d44.jpg"
+            alt="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2020/5/14/31f7ff85-1319-4782-ad83-5908ebf36d44.jpg"
+          />
+          <div className="product-desc">
+            <span className="product-name">Mousepad Gaming</span>
+            <span className="product-price">Rp 59.000</span>
+            <span className="product-location">
+              <img src="assets/icon/location.png" alt="location" />
+              <span>Jakarta Selatan</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="product">
+          <img
+            className="product-image"
+            src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/8/9/0756df71-e25a-43fd-a9ca-4a75f6f5ccf7.jpg"
+            alt="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/8/9/0756df71-e25a-43fd-a9ca-4a75f6f5ccf7.jpg"
+          />
+          <div className="product-desc">
+            <span className="product-name">Mousepad Gaming</span>
+            <span className="product-price">Rp 59.000</span>
+            <span className="product-location">
+              <img src="assets/icon/location.png" alt="location" />
+              <span>Jakarta Selatan</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="product">
+          <img
+            className="product-image"
+            src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/8/9/0756df71-e25a-43fd-a9ca-4a75f6f5ccf7.jpg"
+            alt="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/8/9/0756df71-e25a-43fd-a9ca-4a75f6f5ccf7.jpg"
+          />
+          <div className="product-desc">
+            <span className="product-name">Mousepad Gaming</span>
+            <span className="product-price">Rp 59.000</span>
+            <span className="product-location">
+              <img src="assets/icon/location.png" alt="location" />
+              <span>Jakarta Selatan</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="product">
+          <img
+            className="product-image"
+            src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/8/9/0756df71-e25a-43fd-a9ca-4a75f6f5ccf7.jpg"
+            alt="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/8/9/0756df71-e25a-43fd-a9ca-4a75f6f5ccf7.jpg"
+          />
+          <div className="product-desc">
+            <span className="product-name">Mousepad Gaming</span>
+            <span className="product-price">Rp 59.000</span>
+            <span className="product-location">
+              <img src="assets/icon/location.png" alt="location" />
+              <span>Jakarta Selatan</span>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
