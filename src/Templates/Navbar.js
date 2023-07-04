@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import {Link} from "react-router-dom"
 import "../css/Navbar.css";
 
 export default function Navbar() {
+  const [search, setSearch] = useState("");
   const [searchImage, setSearchImage] = useState(true);
 
   function inputSearchFocus() {
@@ -9,21 +11,36 @@ export default function Navbar() {
   }
 
   function inputSearchFocusOut() {
-    return setSearchImage(true);
+    if (search !== "") {
+      return setSearchImage(false);
+    } else {
+      return setSearchImage(true);
+    }
+  }
+
+  function inputSearchChange(event) {
+    return setSearch(event.target.value)
   }
 
   return (
     <nav className="navbar">
       <div className="brand-image">
-        <img
-          src="https://imgop.itemku.com/?url=https%3A%2F%2Ffiles.itemku.com%2Flogo%2Fitemku%2Fitemku-logo-color-transparent.png&w=140&q=75"
-          alt="test"
-        />
+        <Link to="/">
+          <img
+            src="https://imgop.itemku.com/?url=https%3A%2F%2Ffiles.itemku.com%2Flogo%2Fitemku%2Fitemku-logo-color-transparent.png&w=140&q=75"
+            alt="test"
+          />
+        </Link>
+      </div>
+      <div className="category">
+        <img src="assets/icon/category.png" alt="category" />
+        <span>Kategori</span>
       </div>
       <div className="input-search">
         <input
           type="text"
           name="search"
+          onChange={inputSearchChange}
           onFocus={inputSearchFocus}
           onBlur={inputSearchFocusOut}
         />
@@ -39,7 +56,7 @@ export default function Navbar() {
       </div>
       <div className="vertical-line"></div>
       <div className="btn-login">
-        <button>Masuk</button>
+        <Link to="/login">Masuk</Link>
       </div>
     </nav>
   );
